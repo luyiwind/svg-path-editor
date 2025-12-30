@@ -12,10 +12,10 @@ export class UploadImageDialogComponent {
   data: string | null = null;
   displayableData: SafeResourceUrl | null = null;
   name = '';
-  x = '0';
-  y = '0';
-  width = '20';
-  height = '20';
+  x = '-175';
+  y = '-65';
+  width = '560';
+  height = '560';
   preserveAspectRatio = true;
 
   constructor(
